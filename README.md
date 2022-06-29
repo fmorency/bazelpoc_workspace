@@ -10,3 +10,11 @@ $ cd bazelpoc_workspace
 $ cargo raze
 $ bazel build //...:all-targets
 ```
+
+# Tests
+
+```
+$ cd bazelpoc_workspace
+$ cargo raze
+$ bazel test //...:all-targets
+```
